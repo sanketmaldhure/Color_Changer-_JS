@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <script src="script.js" defer>  </script>
+</head>
+<style>
+    h1
+    {
+        text-align: center;
+    }
+    .wrapper{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        flex-wrap: wrap;
+    }
+    .box{
+        height: 80px;
+        width: 80px;
+        border: 1px solid black;
+        text-align: center;
+       
+    }
+    #red{
+        background: red;
+    }
+    #orange{
+        background: orange;
+    }
+    #green{
+        background: green;
+    }
+    #yellow{
+        background: yellow;
+    }
+   #purple{
+    background-color: purple;
+
+    }
+</style>
+<body>
+
+    <h1> Color scheme Switcher</h1>
+  <div class="wrapper">
+    <div class="box" id="red">red</div>
+    <div class="box" id="orange">orange</div>
+    <div class="box" id="green">green</div>
+    <div class="box" id="yellow">yellow</div>
+    <div class="box" id="purple">purple</div>
+  </div>
+</body>
+</html>
